@@ -1,0 +1,86 @@
+{
+  "bounds": [
+    -74.6411,
+    40.2544,
+    -73.125,
+    41.2613
+  ],
+  "center": [
+    -73.9957,
+    40.7358,
+    11
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 9,
+  "maxzoom": 15,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "streets.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -74.70134781197254,
+        40.29593226000012,
+        -72.89865361556569,
+        41.65684306882418
+      ],
+      "id": "newyork-poly",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/nickdoiron/Downloads/new-york.coastline/new-york.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "newyork-poly"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -74.5009961,
+        40.3450031,
+        -73.2260161,
+        41.0969998
+      ],
+      "id": "newyork-shape",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/nickdoiron/Downloads/new-york.osm2pgsql-shapefiles/new-york.osm-polygon.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "newyork-shape"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -74.5009991,
+        40.345,
+        -73.226001,
+        41.0969998
+      ],
+      "id": "newyork",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/nickdoiron/Downloads/new-york.osm2pgsql-shapefiles/new-york.osm-line.shp",
+        "id": "newyork",
+        "project": "NYCing",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "newyork"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "NYCing",
+  "description": "",
+  "attribution": ""
+}

@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9776147, 40.7615516]
+      },
+      "properties": {
+        "name": "Museum of Modern Art",
+        "description": "I work here and it's awesome. I look at the art here and it's awesome. All-around awesomeness."
+      }
+    }
+  ]
+}
